@@ -12,7 +12,7 @@ const Header = () => {
                 width={127} 
                 height={30} 
             />
-            <nav className="flex gap-44 font-medium">   
+            <nav className="flex gap-25 font-medium">   
                 <Link href="#" className="relative after:content-[''] after:block after:bg-primary after:rounded-full after:h-[3px] after:w-1/2 after:absolute after:left-1/2 after:-translate-x-1/2 after:translate-y-1">
                 Home
                 </Link>
