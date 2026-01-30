@@ -31,7 +31,7 @@ const ProductDetail = async ({params} : TPageProps) => {
                     {product.name}
                 </h1>
                 <div className="py-2 px-6 bg-primary-light rounded-full text-primary w-fit mb-5">
-                    {product.category.name}
+                    {product.category?.name}
                 </div>
                 <p className="leading-loose mb-8">
                     {product.description}
